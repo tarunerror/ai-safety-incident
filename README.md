@@ -23,12 +23,16 @@ A RESTful API service for logging and tracking AI safety incidents. This service
    ```
    npm install
    ```
-3. Ensure MongoDB is running locally on port 27017
-4. Seed the database with sample data:
+3. Create a .env file
+   ```
+   cp .env.example .env
+   ```
+4. Ensure MongoDB is running locally on port 27017
+5. Seed the database with sample data:
    ```
    npm run seed
    ```
-5. Start the server:
+6. Start the server:
    ```
    npm start
    ```
