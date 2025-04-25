@@ -19,6 +19,10 @@ A RESTful API service for logging and tracking AI safety incidents. This service
 ### Installation
 
 1. Clone the repository
+   ```
+   git clone https://github.com/tarunerror/ai-safety-incident.git
+   cd ai-safety-incident
+   ```
 2. Install dependencies:
    ```
    npm install
